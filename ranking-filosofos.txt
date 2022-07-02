@@ -1,0 +1,22 @@
+Definições: Química = Q; Física = F e Matemática = M 
+            Aristóteles = A; Platão = P e sócrates = S 
+
+De acordo com as informações da questão, temos que determinar combinações 
+onde cada filósofo ocupe as três posicões distintas no ranking para cada matéria. 
+Por exemplo, se A ocupa o primeiro lugar em  M, ele não poderá ocuparo primeiro lugar em F e nem Q. 
+Se A ocupar o primeiro lugar em M e Segundo lugar em F, ele não ocupará nem o primeiro e nem segundo lugar em Q, 
+podendo apenas ocupar o terceiro lugar em Q. O mesmo ocorre para P e S. 
+
+vamos descrever todas as possibilidades no ranking de  Q, F e M para A, P e S.
+Vamos determinar a ordem de colocação da esquerda pra direita (isto é, se XYZ, então x = 1ª, y = 2ª e z = 3ª). 
+
+Assim: 
+
+Q -> SAP, PAS, SPA, PSA
+F -> PSA, APS, PAS 
+M -> PAS, PSA, SPA
+
+Logo, podemos concluir que a ordem de colocação dos filosofos em relação a Q seria: SAP,
+em relação a F seria: APS e em relação a M seria: PSA. 
+
+Portanto, SAP, APS e PSA são as combinações desejadas.
